@@ -70,7 +70,7 @@ class OutputView {
         printMap(userInput, bridge)
         print("게임 성공 여부: ")
         val res = checkResult(userInput, bridge)
-        print(if (res) "성공" else "실패")
+        println(if (res) "성공" else "실패")
         println("총 시도한 횟수: $tryCount")
     }
 
